@@ -28,6 +28,6 @@ export class DetailsPage {
     }
 
     get coverImage() {
-        return cy.get('alt=["show cover image"]')
+        return cy.get('[alt="show cover image"]')
     }
 }
